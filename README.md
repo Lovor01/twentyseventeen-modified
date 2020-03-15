@@ -7,7 +7,7 @@ modified twenty seventeen with several special touches
 
 ## Changes - innerpages:
 * Typewriter effect on titles
-* Images on left, text on right. Images are entered on admin part in custom fields
+* Images on left, text on right. On mobile pages, first image shows before text, the rest after. Images are entered on admin part in custom fields in pages. 
 
 ## Custom form
-* For contact form, plugin is not used. Instead, whole solution is custom coded. It saves sent messages in database and shows them as wordpress Table. Email is also sent to client.
+* For contact form, plugin is not used. Instead, whole solution is custom coded. It saves sent messages in database and shows them as wordpress Table. Email is also sent to admin of the page with contact form content.
