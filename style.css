@@ -1,0 +1,316 @@
+/*
+ Theme Name:   Geopair twenty seventeen child
+ Theme URI:    
+ Description:  Čajld tema
+ Author:       Lovro
+ Author URI:   
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  twentyseventeen-child
+ Domain Path: /languages
+*/
+
+ html {
+	font-size: 18px;
+}
+
+ul {
+	margin-left:2ch;
+	list-style: none outside url('img/checkbox-marked-circle-outline.svg');
+	}
+
+.entry-content ul li {
+	margin-bottom:0.4rem;
+	line-height: 2;
+}
+
+.entry-content ul li:last-child {
+	margin-bottom: 0;
+}
+
+label {
+	font-weight: 400;
+}
+
+#panel3 ul>li, #panel2 ul>li {
+	list-style: none outside url('img/next-page.svg');
+
+}
+
+body.page .entry-header .entry-title  {
+	margin-bottom: 2em;
+}
+
+.entry-header img  {
+	margin-bottom: 1.5em;
+}
+
+.page-id-10 #main {
+	padding: 0.5em 1em;
+	background: linear-gradient(to bottom, #f4f4f4, #fdfdfd);
+}
+
+.page-id-10 #main h1 {
+	text-transform: uppercase;
+}
+
+.page-id-10 #main h2 {
+	padding: 0.5em 0 0;
+	margin-bottom: 0.25em;
+}
+
+.page-id-10 #main h3 {
+
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.page-id-10 #main h3 a {
+	color: rgb(51, 51, 51);
+}
+
+.page-id-10 section:not(:last-of-type) {
+	border-bottom: 1px dashed #420b01;
+}
+
+
+/* tagline */
+.site-description {
+	font-size: 22px;
+	text-shadow: 2px 2px 6px #420b01;
+	padding-bottom: 8px;
+}
+
+@media screen and (max-width: 30em) {
+	.site-description {
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (min-width: 30em) {
+	.panel-content .entry-header {
+		margin-bottom: 1em;
+	}
+	ul, ol {
+		margin-bottom: 0;
+	}
+	
+}
+
+@media screen and (min-width: 48em) {
+
+	.main-navigation a {
+		padding: 0.75em 1.25em;
+		}
+		
+	.panel-content .wrap {
+			padding-top: 4.5em;
+			padding-bottom: 4.5em;
+		}
+
+	.panel-content .wrap p:last-child {
+		margin-bottom: 0;
+	}
+}
+/*
+.sub-menu {
+	box-shadow: 3px 3px 2px rgba(65, 65, 65, 0.23) inset;
+
+}
+*/
+
+.panel-content .entry-content small {
+	margin-top:0.2em;
+}
+
+.panel-content .entry-content h3 {
+	margin-top:-0.2em;
+}
+
+.navigation-top, .site-content-contain {
+	background: #fdfdfd;
+}
+
+.showtxt {
+	color: rgb(51, 51, 51);
+}
+
+.hidetxt {
+	color: rgba(51, 51, 51,0);
+}
+
+body.page .wrap>#primary .entry-title {
+	visibility: hidden;
+}
+
+/*Computer screen */
+@media screen and (min-width: 48em) {
+	.twentyseventeen-front-page.has-header-image .custom-header-media {
+		height: 627px;
+		height: 85.0vh;
+		}
+	.twentyseventeen-front-page.has-header-image .custom-header-media img{
+		object-fit: cover;
+		top:0;
+		left:0;
+		height:auto;
+		min-height:0;
+	}
+	/* makni footer razmak */
+	.site-footer {
+		margin-top: 0;
+	}
+	.panel-content .entry-header h1 {
+		margin-top:0.5em;
+	}
+}
+
+
+/* Mobile screen*/
+.has-header-image.twentyseventeen-front-page .custom-header {
+	height: 50vh;
+	max-height: 636px;
+}
+
+/* Computer screen with logged in user and admin bar showing on front end*/
+@media screen and (min-width: 48em) {
+	.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media {
+	height: calc(85vh - 32px + 63px);
+	max-height: none;
+	}
+	.has-header-image.twentyseventeen-front-page .custom-header {
+		height:auto;
+		max-height: none;
+	}
+	.panel-image {
+			height: 50vh;
+			max-height: 1200px;
+	}	
+}
+
+@media screen and (min-height: 1280px) {
+	.twentyseventeen-front-page.has-header-image .custom-header-media img {
+		height:85.0vh;
+	}
+}
+
+/* contact panel */
+#panel4 {
+	background-color: #d6e8f2;
+}
+#panel4 h3 {
+	font-size: 1rem;
+	font-weight: 700;
+	padding-top:0;
+	margin-bottom: 0.1em;
+}
+
+.custom-logo-link img {
+	max-height: 130px;
+}
+
+article img {
+	display:block;
+	margin: 1em 0;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+	border-top-style: none;
+}
+
+.site-footer {
+	border-top-style: none;
+}
+
+ /* remove space at the bottom of left footer part */
+ .textwidget p:last-child {
+	margin-bottom: 0;
+}
+
+
+/*** customized colors ****
+***
+***************************/
+
+.navigation-top .current-menu-item > a {
+	color: hsl(19, 100%, 46%);
+}
+
+.navigation-top a {
+	color: rgb(51, 51, 51);	
+}
+
+.main-navigation a:hover {
+	color: hsl(19, 100%, 46%);
+}
+
+.main-navigation li li:hover, .main-navigation li li.focus {
+	background: none;
+}
+
+.main-navigation li li {
+	-webkit-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+.main-navigation li li:hover > a {
+	color: hsl(19, 100%, 46%);
+}
+
+.social-navigation a {
+	background-color: hsl(19, 100%, 65%);
+}
+
+.social-navigation a:hover, .social-navigation a:focus {
+	background-color: hsl(19, 100%, 20%);
+}
+
+.main-navigation li li.current_page_item a:hover {
+	color: hsl(19, 100%, 46%);
+	/* outline: 1px dotted hsl(19, 100%, 46%); */
+}
+
+#text-4 {
+	padding-bottom:0;
+}
+
+/* footer */
+.site-info, .site-info > a {
+	font-size: small;
+}
+
+.copyright {
+	font-weight: bold;
+}
+
+.siteauthor {
+	margin-left: 5em;
+}
+
+article {
+	margin-top: 1em;
+}
+
+article p {
+	margin-bottom: 0.6em;
+}
+
+h3 {
+	padding-top: 1em;
+}
+
+#panel1 .panel-image {background-image: url('/wp-content/uploads/2018/02/kazete2_plave-768x511.jpg');}
+#panel2 .panel-image {background-image: url('/wp-content/uploads/2018/02/kazete_plava_ok-768x512.jpg');}
+#panel3 .panel-image {background-image: url('/wp-content/uploads/2018/02/quality_blue_resized-768x512.jpg');}
+
+@media only screen and (min-width: 48em) { 
+#panel1 .panel-image {background-image: url('/wp-content/uploads/2018/02/kazete2_plave.jpg');}
+#panel2 .panel-image {background-image: url('/wp-content/uploads/2018/02/kazete_plava_ok.jpg');}
+#panel3 .panel-image {background-image: url('/wp-content/uploads/2018/02/quality_blue_resized.jpg');}
+}
